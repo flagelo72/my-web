@@ -1,0 +1,67 @@
+.centro{
+    text-align: center;
+}
+
+body{
+    
+    background-image: url("http://wallup.net/wp-content/uploads/2017/11/17/223621-leather-black_background.jpg");
+    background-attachment: fixed;
+    margin-block-end: 10rem;
+  
+
+}
+.color{
+    color:white
+}
+
+.img1{
+    margin: 0rem;
+    height: 23rem;
+    width: 40rem;
+}
+.texto{
+    font-family: 'Gemunu Libre', sans-serif;  /* font-family: 'Anton', sans-serif;*/
+}
+.title{/*no me detecta la clase*/
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+.enlace{
+    color: rgba(0, 0, 0, 0.993);
+    font-size:1rem;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+footer{
+    float:right;
+    margin-top: 3rem;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.53);
+    
+}
+.enlace{
+    color:rgba(99, 2, 99, 0.993);
+}
+.enlace:hover{
+     background-color: black;
+ }   
+.enlace:active{
+    background-color: #150050;
+}
+.scroll{
+    border: 1em solid rgba(2, 0, 0, 0.185);
+    height: 30em;
+	width: 17em;
+	background: #0000004d;
+	overflow-y: auto;
+    scrollbar-shadow-color: rgb(0, 0, 0);
+}
+.scroll::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0);
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color: #3E065F;
+    border-radius: 1em;
+}

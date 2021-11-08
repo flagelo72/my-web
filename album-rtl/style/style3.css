@@ -1,0 +1,34 @@
+.list-unstyled{
+    text-align: left;
+}
+.left{
+    text-align: left;
+}
+.text-morado{
+    color: #3E065F;
+    text-decoration: none;
+    font-size: 3em;
+
+}
+.text-morado2{
+    color: #3E065F;
+    text-decoration: none;
+    font-size: 0.20em;
+    text-align: left;
+}
+.text-sub{
+    color:white;
+    font-size: 0.1em;
+}
+li{
+    border: 1em;
+}
+.margin{
+    margin-right: 1em;
+    font-family:'Times New Roman', Times, serif;
+    color: #3E065F;
+
+}
+ol{
+    padding-left: 0em;
+}

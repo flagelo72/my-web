@@ -1,0 +1,86 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:white;
+    background-image: url("http://wallup.net/wp-content/uploads/2017/11/17/223621-leather-black_background.jpg");
+    background-attachment: fixed;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+header,main,footer{
+width: 90%;
+max-width: 70rem;
+margin: 1rem auto;
+}
+nav{
+    width: 10em;
+    height: 20em;
+    background-color: rgba(0, 0, 0, 0.427);
+    overflow: hidden;
+    display:inline-block;
+}
+.li{
+    float: left;
+    font-size: 2rem;
+    font-family: initial;
+}
+a{
+    list-style: none;
+    padding: 0.20rem 1rem;
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+
+}
+article{
+    width: 75%;
+    float:left;
+    padding: 1rem;
+    margin-bottom:2rem ;
+    
+}
+aside{
+    width: 14em;
+    float:right;
+    padding:2rem ;
+    box-sizing: border-box;
+    position: relative;
+    top: -105rem;
+    
+}
+footer{
+    color: white;
+    clear: both;
+    padding: 1rem 2rem;
+    text-align:right;
+}
+.text-iz{
+    color: white;
+padding: 0rem 0.40rem;
+}
+.Inicio{
+    color:rgba(99, 2, 99, 0.993);;
+    text-align: center;
+}
+h1{
+    color: rgba(99, 2, 99, 0.993);
+    font-family: 'Anton', sans-serif;
+}
+h2{
+   color: rgba(99, 2, 99, 0.993);
+   font-family: 'Anton', sans-serif;
+}
+a:hover{
+    background-color: black;
+}
+.li{
+    display:inline-block;
+    
+}
+a:focus{
+    border-bottom: 1px solid;
+}
+a:active{
+    background-color: #150050;
+}
